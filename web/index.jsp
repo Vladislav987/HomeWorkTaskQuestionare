@@ -28,8 +28,8 @@
     <select name="age" required>
         <option></option>
         <option value="small">I`m child</option>
-        <option value="young">I`m yong</option>
-        <option value="large">I`m large</option>
+        <option value="young">I`m young</option>
+        <option value="large">I`m adult</option>
         <option value="old">I`m old</option>
         <option value="think">I`m don`t know</option>
     </select>

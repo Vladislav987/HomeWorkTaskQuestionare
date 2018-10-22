@@ -47,7 +47,7 @@ public class QuestionnaireServlet extends HttpServlet {
         }else if (vegetariansCount.get() < notVegetarianCount.get()){
             resp.getWriter().write(String.format(TEMPLATE, "Non vegetarians were more)))"));
         }else{
-            resp.getWriter().write(String.format(TEMPLATE, "Vegetarians were as much as vegetarian)))"));
+            resp.getWriter().write(String.format(TEMPLATE, "Vegetarians were as much as normal people)))"));
 
         }
         resp.getWriter().write(String.format(TEMPLATE, "<img src=\"foto.png\">"));
